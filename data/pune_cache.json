@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-11-26T18:52:07.770751",
+  "payload": {
+    "time": "2025-11-26T13:15",
+    "interval": 900,
+    "temperature": 24.7,
+    "windspeed": 4.1,
+    "winddirection": 105,
+    "is_day": 0,
+    "weathercode": 0
+  },
+  "previous": 24.7
+}

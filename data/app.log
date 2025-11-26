@@ -1,0 +1,13 @@
+2025-11-26 18:52:06,540 [INFO] Logging initialized with level: INFO
+2025-11-26 18:52:06,541 [INFO] Cities to process: ['Delhi', 'Pune']
+2025-11-26 18:52:06,541 [INFO] Caching enabled: True
+2025-11-26 18:52:06,541 [INFO] Alert temperature threshold: 35.0°C
+2025-11-26 18:52:06,543 [INFO] Processing city: Delhi
+2025-11-26 18:52:06,544 [INFO] Coordinates for Delhi: 28.6, 77.2
+2025-11-26 18:52:06,544 [INFO] Processing city: Pune
+2025-11-26 18:52:06,544 [INFO] Fetching new weather data for Delhi
+2025-11-26 18:52:06,544 [INFO] Coordinates for Pune: 18.52, 73.86
+2025-11-26 18:52:06,545 [INFO] Fetching new weather data for Pune
+2025-11-26 18:52:07,771 [INFO] No alert. Temperature 24.7°C is below threshold 35.0°C
+2025-11-26 18:52:08,443 [INFO] No alert. Temperature 18.2°C is below threshold 35.0°C
+2025-11-26 18:52:08,452 [INFO] All cities processed.
