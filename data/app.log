@@ -11,3 +11,146 @@
 2025-11-26 18:52:07,771 [INFO] No alert. Temperature 24.7°C is below threshold 35.0°C
 2025-11-26 18:52:08,443 [INFO] No alert. Temperature 18.2°C is below threshold 35.0°C
 2025-11-26 18:52:08,452 [INFO] All cities processed.
+2025-11-28 14:56:21,927 [INFO] Logging initialized with level: INFO
+2025-11-28 14:56:21,928 [INFO] Cities to process: ['Pune', 'Ranchi']
+2025-11-28 14:56:21,928 [INFO] Caching enabled: True
+2025-11-28 14:56:21,929 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 14:56:21,935 [INFO] Processing city: Pune
+2025-11-28 14:56:21,937 [INFO] Processing city: Ranchi
+2025-11-28 14:56:21,937 [INFO] Coordinates for Pune: 18.52, 73.86
+2025-11-28 14:56:21,937 [WARNING] No predefined coordinates for city 'Ranchi', using default lat/lon
+2025-11-28 14:56:21,938 [INFO] Coordinates for Ranchi: 28.6, 77.2
+2025-11-28 14:56:21,939 [INFO] Fetching new weather data for Ranchi
+2025-11-28 14:56:22,041 [INFO] Fetching new weather data for Pune
+2025-11-28 14:56:22,824 [INFO] No alert. Temperature 28.4°C is below threshold 35.0°C
+2025-11-28 14:56:22,847 [INFO] No alert. Temperature 22.9°C is below threshold 35.0°C
+2025-11-28 14:56:22,852 [INFO] All cities processed.
+2025-11-28 16:39:03,390 [INFO] Logging initialized with level: INFO
+2025-11-28 16:39:03,391 [INFO] Cities to process: ['Pune']
+2025-11-28 16:39:03,391 [INFO] Caching enabled: True
+2025-11-28 16:39:03,393 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 16:39:03,396 [INFO] Processing city: Pune
+2025-11-28 16:39:03,396 [INFO] Coordinates for Pune: 18.52, 73.86
+2025-11-28 16:39:03,397 [INFO] Fetching new weather data for Pune
+2025-11-28 16:39:04,233 [INFO] No alert. Temperature 28.2°C is below threshold 35.0°C
+2025-11-28 16:39:04,235 [INFO] All cities processed.
+2025-11-28 16:48:00,164 [INFO] Logging initialized with level: INFO
+2025-11-28 16:48:00,165 [INFO] Cities to process: ['delhi']
+2025-11-28 16:48:00,166 [INFO] Caching enabled: True
+2025-11-28 16:48:00,166 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 16:48:00,170 [INFO] Processing city: delhi
+2025-11-28 16:48:00,170 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-11-28 16:48:00,172 [INFO] Fetching new weather data for delhi
+2025-11-28 16:48:01,144 [INFO] No alert. Temperature 22.2°C is below threshold 35.0°C
+2025-11-28 16:48:01,146 [INFO] All cities processed.
+2025-11-28 16:55:17,539 [INFO] Logging initialized with level: INFO
+2025-11-28 16:55:17,539 [INFO] Cities to process: ['delhi']
+2025-11-28 16:55:17,540 [INFO] Caching enabled: True
+2025-11-28 16:55:17,540 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 16:55:17,546 [INFO] Processing city: delhi
+2025-11-28 16:55:17,547 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-11-28 16:55:17,549 [INFO] No alert. Temperature 22.2°C is below threshold 35.0°C
+2025-11-28 16:55:17,551 [INFO] All cities processed.
+2025-11-28 16:56:32,976 [INFO] Logging initialized with level: INFO
+2025-11-28 16:56:32,977 [INFO] Cities to process: ['ranchi']
+2025-11-28 16:56:32,978 [INFO] Caching enabled: True
+2025-11-28 16:56:32,978 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 16:56:32,982 [INFO] Processing city: ranchi
+2025-11-28 16:56:32,982 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-11-28 16:56:32,983 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-11-28 16:56:32,985 [INFO] Fetching new weather data for ranchi
+2025-11-28 16:56:33,978 [INFO] No alert. Temperature 22.2°C is below threshold 35.0°C
+2025-11-28 16:56:33,981 [INFO] All cities processed.
+2025-11-28 17:09:28,099 [INFO] Logging initialized with level: INFO
+2025-11-28 17:09:28,100 [INFO] Cities to process: ['pune']
+2025-11-28 17:09:28,101 [INFO] Caching enabled: True
+2025-11-28 17:09:28,101 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 17:09:28,104 [INFO] Processing city: pune
+2025-11-28 17:09:28,105 [INFO] Coordinates for pune: 18.52, 73.86
+2025-11-28 17:09:28,107 [INFO] Fetching new weather data for pune
+2025-11-28 17:09:29,060 [INFO] No alert. Temperature 27.7°C is below threshold 35.0°C
+2025-11-28 17:09:29,062 [INFO] All cities processed.
+2025-11-28 17:22:34,082 [INFO] Logging initialized with level: INFO
+2025-11-28 17:22:34,083 [INFO] Cities to process: ['delhi']
+2025-11-28 17:22:34,084 [INFO] Caching enabled: True
+2025-11-28 17:22:34,085 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 17:22:34,088 [INFO] Processing city: delhi
+2025-11-28 17:22:34,088 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-11-28 17:22:34,090 [INFO] Fetching new weather data for delhi
+2025-11-28 17:22:34,773 [INFO] No alert. Temperature 21.4°C is below threshold 35.0°C
+2025-11-28 17:22:34,776 [INFO] All cities processed.
+2025-12-02 18:20:13,075 [INFO] Logging initialized with level: INFO
+2025-12-02 18:20:13,268 [INFO] Cities to process: ['delhi']
+2025-12-02 18:20:13,268 [INFO] Caching enabled: True
+2025-12-02 18:20:13,269 [INFO] Alert temperature threshold: 35.0°C
+2025-12-02 18:20:13,496 [INFO] Processing city: delhi
+2025-12-02 18:20:13,497 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-02 18:20:13,498 [INFO] Fetching new weather data for delhi
+2025-12-02 18:20:17,724 [INFO] No alert. Temperature 19.0°C is below threshold 35.0°C
+2025-12-02 18:20:17,726 [INFO] All cities processed.
+2025-12-02 18:30:14,833 [INFO] Logging initialized with level: INFO
+2025-12-02 18:30:14,833 [INFO] Cities to process: ['ache', 'Delhi']
+2025-12-02 18:30:14,833 [INFO] Caching enabled: True
+2025-12-02 18:30:14,834 [INFO] Alert temperature threshold: 35.0°C
+2025-12-02 18:30:15,313 [INFO] Processing city: ache
+2025-12-02 18:30:15,313 [INFO] Processing city: Delhi
+2025-12-02 18:30:15,313 [WARNING] No predefined coordinates for city 'ache', using default lat/lon
+2025-12-02 18:30:15,314 [INFO] Coordinates for Delhi: 28.6, 77.2
+2025-12-02 18:30:15,314 [INFO] Coordinates for ache: 28.6, 77.2
+2025-12-02 18:30:15,316 [INFO] Fetching new weather data for ache
+2025-12-02 18:30:15,318 [INFO] No alert. Temperature 19.0°C is below threshold 35.0°C
+2025-12-02 18:30:16,188 [INFO] No alert. Temperature 18.8°C is below threshold 35.0°C
+2025-12-02 18:30:16,189 [INFO] All cities processed.
+2025-12-02 19:00:31,369 [INFO] Logging initialized with level: INFO
+2025-12-02 19:00:31,370 [INFO] Cities to process: ['delhi']
+2025-12-02 19:00:31,371 [INFO] Caching enabled: True
+2025-12-02 19:00:31,372 [INFO] Alert temperature threshold: 30.0°C
+2025-12-02 19:00:31,375 [INFO] Processing city: delhi
+2025-12-02 19:00:31,375 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-02 19:00:31,377 [INFO] Fetching new weather data for delhi
+2025-12-02 19:00:32,268 [INFO] No alert. Temperature 18.1°C is below threshold 30.0°C
+2025-12-02 19:00:32,269 [INFO] All cities processed.
+2025-12-02 19:02:10,618 [INFO] Logging initialized with level: INFO
+2025-12-02 19:02:10,619 [INFO] Cities to process: ['delhi']
+2025-12-02 19:02:10,619 [INFO] Caching enabled: True
+2025-12-02 19:02:10,620 [INFO] Alert temperature threshold: 15.0°C
+2025-12-02 19:02:10,622 [INFO] Processing city: delhi
+2025-12-02 19:02:10,622 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-02 19:02:10,624 [WARNING] ALERT! Temperature 18.1°C exceeded threshold 15.0°C
+2025-12-02 19:02:11,706 [INFO] All cities processed.
+2025-12-02 19:03:04,173 [INFO] Logging initialized with level: INFO
+2025-12-02 19:03:04,174 [INFO] Cities to process: ['delhi']
+2025-12-02 19:03:04,174 [INFO] Caching enabled: True
+2025-12-02 19:03:04,175 [INFO] Alert temperature threshold: 10.0°C
+2025-12-02 19:03:04,177 [INFO] Processing city: delhi
+2025-12-02 19:03:04,177 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-02 19:03:04,179 [WARNING] ALERT! Temperature 18.1°C exceeded threshold 10.0°C
+2025-12-02 19:03:04,964 [INFO] All cities processed.
+2025-12-02 19:44:18,307 [INFO] Logging initialized with level: INFO
+2025-12-02 19:44:18,309 [INFO] Cities to process: ['canada']
+2025-12-02 19:44:18,310 [INFO] Caching enabled: True
+2025-12-02 19:44:18,313 [INFO] Alert temperature threshold: 35.0°C
+2025-12-02 19:44:18,316 [INFO] Processing city: canada
+2025-12-02 19:44:18,317 [WARNING] No predefined coordinates for city 'canada', using default lat/lon
+2025-12-02 19:44:18,317 [INFO] Coordinates for canada: 28.6, 77.2
+2025-12-02 19:44:18,318 [INFO] Fetching new weather data for canada
+2025-12-02 19:44:19,220 [INFO] No alert. Temperature 17.8°C is below threshold 35.0°C
+2025-12-02 19:44:19,222 [INFO] All cities processed.
+2025-12-02 19:50:41,432 [INFO] Logging initialized with level: INFO
+2025-12-02 19:50:41,433 [INFO] Cities to process: ['delhi']
+2025-12-02 19:50:41,433 [INFO] Caching enabled: True
+2025-12-02 19:50:41,434 [INFO] Alert temperature threshold: 35.0°C
+2025-12-02 19:50:41,437 [INFO] Processing city: delhi
+2025-12-02 19:50:41,437 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-02 19:50:41,440 [INFO] Fetching new weather data for delhi
+2025-12-02 19:50:42,357 [INFO] No alert. Temperature 17.5°C is below threshold 35.0°C
+2025-12-02 19:50:42,359 [INFO] All cities processed.
+2025-12-03 00:52:01,272 [INFO] Logging initialized with level: INFO
+2025-12-03 00:52:01,273 [INFO] Cities to process: ['delhi']
+2025-12-03 00:52:01,274 [INFO] Caching enabled: True
+2025-12-03 00:52:01,275 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 00:52:01,279 [INFO] Processing city: delhi
+2025-12-03 00:52:01,280 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 00:52:01,311 [INFO] Fetching new weather data for delhi
+2025-12-03 00:52:02,354 [INFO] No alert. Temperature 12.9°C is below threshold 35.0°C
+2025-12-03 00:52:02,357 [INFO] All cities processed.

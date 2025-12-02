@@ -4,6 +4,7 @@ from config import load_config
 from fetcher import fetch_weather, get_coords_for_city
 from cache import load_cache, save_cache
 from logging_system import setup_logging
+
 from alerts import check_alert
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -125,5 +126,5 @@ print(f"{Fore.GREEN}✅ All cities processed.{Style.RESET_ALL}")
 
 
 if __name__ == "__main__":
-    main()
+    main()                         
 
