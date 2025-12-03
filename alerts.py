@@ -2,6 +2,7 @@ import logging
 import platform
 from colorama import Fore, Style, init
 
+
 init(autoreset=True)
 
 def check_alert(weather: dict, alert_temp: float):
@@ -37,3 +38,11 @@ def play_alert_sound():
 
     except Exception as e:
         logging.error(f"Failed to play sound alert: {e}")
+
+def detect_trend(prev_temp, new_temp):
+    if new_temp > prev_temp:
+        return "rising"
+    elif new_temp < prev_temp:
+        return "dropping"
+    else:
+        return "stable"
