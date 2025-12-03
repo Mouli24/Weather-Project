@@ -1,58 +1,15 @@
-Weather Data Harvester – README.md
- Overview
- Weather Data Harvester is a Python CLI application that fetches real-time weather for one or multiple
- cities using the Open-Meteo API.
- It includes:- Multi-city parallel processing- Fast fetching using caching (with TTL)- Temperature trend detection- Threshold-based alerts (color + sound)- Auto & manual coordinates- Config file support- Logging system (file + console)- Unit tests- Colored terminal output
- Features
- Multi-city Weather Fetching
- Smart Caching (per-city)
- Temperature Trend Detection
- Alerts System
- Config-driven setup
- Logging
- Colorized output
- Modular code architecture
- Installation
- 1. Clone repo:
-git clone
- cd Weather-Project
- 2. Create venv:
- python -m venv venv
- venv\Scripts\activate
- 3. Install dependency:
- pip install colorama
- Basic Usage
- python main.py
- python main.py -c Delhi
- python main.py -c Pune -c Ranchi
- python main.py --cities "Delhi,Mumbai"
- Alert Commands
- python main.py -c Delhi --alert-temp 32
- python main.py -c Delhi -A 1 # force alert test
- Cache Commands
- python main.py --use-cache -c Delhi
- type data\delhi_cache.json
- del data\*_cache.json
- Logging
- python main.py -L DEBUG
- type data\app.log
- Coordinates
-python main.py -c Delhi --lat 28.7 --lon 77.3
- Config
- python main.py --config config/config.ini
- Tests
- python -m unittest discover tests
- Folder Structure
- weather_alert/
- main.py
- cli.py
- fetcher.py
- cache.py
- alerts.py
- config.py
- logging_system.py
- config/config.ini
- data/
- tests/
- License
- MIT Licens
+# 🌦️ Weather Alert CLI Tool  
+A powerful, multi-feature command-line weather monitoring system built in Python.  
+This tool fetches real-time weather, displays it beautifully in the terminal, shows GUI maps, sends desktop notifications, handles alerts, exports data, and caches city weather intelligently.
+
+------------------------------------------------
+Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate    # Mac/Linux
+venv\Scripts\activate       # Windows
+
+------------------------------------------------
+## 🚀 Features
+
+### ✅ **1. Multi-City Weather Fetching (Threaded)**
+Fetch weather data for multiple cities simultaneously using `ThreadPoolExecutor` for ultra-fast performance.
