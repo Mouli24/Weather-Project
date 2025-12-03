@@ -16,4 +16,4 @@ def setup_logging(level: str = "INFO"):
         ]
     )
 
-    logging.info(f"Logging initialized with level: {level}")
+    # logging.info(f"Logging initialized with level: {level}")

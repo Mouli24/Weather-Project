@@ -1,13 +1,13 @@
 {
-  "timestamp": "2025-12-03T00:52:02.352990",
+  "timestamp": "2025-12-04T00:19:56.973405",
   "payload": {
-    "time": "2025-12-02T19:15",
+    "time": "2025-12-03T18:45",
     "interval": 900,
-    "temperature": 12.9,
+    "temperature": 11.7,
     "windspeed": 4.1,
-    "winddirection": 345,
+    "winddirection": 285,
     "is_day": 0,
     "weathercode": 0
   },
-  "previous": 12.9
+  "previous": 11.7
 }

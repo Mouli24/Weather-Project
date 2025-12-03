@@ -154,3 +154,448 @@
 2025-12-03 00:52:01,311 [INFO] Fetching new weather data for delhi
 2025-12-03 00:52:02,354 [INFO] No alert. Temperature 12.9°C is below threshold 35.0°C
 2025-12-03 00:52:02,357 [INFO] All cities processed.
+2025-12-03 05:20:07,867 [INFO] Logging initialized with level: INFO
+2025-12-03 05:20:07,868 [INFO] Cities to process: ['delhi']
+2025-12-03 05:20:07,869 [INFO] Caching enabled: True
+2025-12-03 05:20:07,870 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 05:20:07,875 [INFO] Processing city: delhi
+2025-12-03 05:20:07,877 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 05:20:08,072 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-03 05:20:08,080 [INFO] Fetching new weather data for delhi
+2025-12-03 05:20:08,969 [INFO] Cache updated safely for: delhi
+2025-12-03 05:20:08,970 [INFO] No alert. Temperature 9.9°C is below threshold 35.0°C
+2025-12-03 05:20:08,972 [INFO] All cities processed.
+2025-12-03 05:26:28,709 [INFO] Logging initialized with level: INFO
+2025-12-03 05:26:28,710 [INFO] Cities to process: ['delhi']
+2025-12-03 05:26:28,710 [INFO] Caching enabled: True
+2025-12-03 05:26:28,711 [INFO] Alert temperature threshold: 2.0°C
+2025-12-03 05:26:28,714 [INFO] Processing city: delhi
+2025-12-03 05:26:28,714 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 05:26:28,838 [WARNING] ALERT! Temperature 9.9°C exceeded threshold 2.0°C
+2025-12-03 05:26:33,815 [INFO] All cities processed.
+2025-12-03 05:27:00,596 [INFO] Logging initialized with level: INFO
+2025-12-03 05:27:00,597 [INFO] Cities to process: ['delhi']
+2025-12-03 05:27:00,598 [INFO] Caching enabled: True
+2025-12-03 05:27:00,598 [INFO] Alert temperature threshold: 2.0°C
+2025-12-03 05:27:00,601 [INFO] Processing city: delhi
+2025-12-03 05:27:00,602 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 05:27:00,604 [WARNING] ALERT! Temperature 9.9°C exceeded threshold 2.0°C
+2025-12-03 05:27:05,342 [INFO] All cities processed.
+2025-12-03 05:29:16,847 [INFO] Logging initialized with level: INFO
+2025-12-03 05:29:16,848 [INFO] Cities to process: ['delhi']
+2025-12-03 05:29:16,848 [INFO] Caching enabled: True
+2025-12-03 05:29:16,849 [INFO] Alert temperature threshold: 2.0°C
+2025-12-03 05:29:16,851 [INFO] Processing city: delhi
+2025-12-03 05:29:16,852 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 05:29:16,854 [WARNING] ALERT! Temperature 9.9°C exceeded threshold 2.0°C
+2025-12-03 05:29:18,648 [INFO] All cities processed.
+2025-12-03 05:33:08,251 [INFO] Logging initialized with level: INFO
+2025-12-03 05:33:08,252 [INFO] Cities to process: ['delhi']
+2025-12-03 05:33:08,252 [INFO] Caching enabled: True
+2025-12-03 05:33:08,253 [INFO] Alert temperature threshold: 2.0°C
+2025-12-03 05:33:08,256 [INFO] Processing city: delhi
+2025-12-03 05:33:08,257 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 05:33:08,259 [WARNING] ALERT! Temperature 9.9°C exceeded threshold 2.0°C
+2025-12-03 05:33:18,401 [INFO] All cities processed.
+2025-12-03 05:38:29,456 [INFO] Logging initialized with level: INFO
+2025-12-03 05:38:29,458 [INFO] Cities to process: ['delhi']
+2025-12-03 05:38:29,459 [INFO] Caching enabled: True
+2025-12-03 05:38:29,460 [INFO] Alert temperature threshold: 2.0°C
+2025-12-03 05:38:29,463 [INFO] Processing city: delhi
+2025-12-03 05:38:29,464 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 05:38:29,467 [WARNING] ALERT! Temperature 9.9°C exceeded threshold 2.0°C
+2025-12-03 05:38:32,883 [INFO] All cities processed.
+2025-12-03 05:51:57,070 [INFO] Logging initialized with level: INFO
+2025-12-03 05:51:57,071 [INFO] Cities to process: ['delhi']
+2025-12-03 05:51:57,072 [INFO] Caching enabled: True
+2025-12-03 05:51:57,072 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 05:51:57,076 [INFO] Processing city: delhi
+2025-12-03 05:51:57,076 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 05:51:57,078 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-03 05:51:57,078 [INFO] Fetching new weather data for delhi
+2025-12-03 05:51:57,917 [INFO] Cache updated safely for: delhi
+2025-12-03 05:51:57,918 [INFO] No alert. Temperature 9.6°C within safe range.
+2025-12-03 05:51:57,920 [INFO] All cities processed.
+2025-12-03 06:18:46,830 [INFO] Logging initialized with level: INFO
+2025-12-03 06:18:46,831 [INFO] Cities to process: ['delhi']
+2025-12-03 06:18:46,832 [INFO] Caching enabled: True
+2025-12-03 06:18:46,833 [INFO] Alert temperature threshold: 2.0°C
+2025-12-03 06:18:46,836 [INFO] Processing city: delhi
+2025-12-03 06:18:46,837 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 06:18:46,871 [WARNING] ALERT! Temperature 9.6°C exceeded threshold 2.0°C
+2025-12-03 06:18:50,188 [INFO] All cities processed.
+2025-12-03 13:23:43,735 [INFO] Logging initialized with level: INFO
+2025-12-03 13:23:43,737 [INFO] Cities to process: ['delhi']
+2025-12-03 13:23:43,738 [INFO] Caching enabled: True
+2025-12-03 13:23:43,738 [INFO] Alert temperature threshold: 2.0°C
+2025-12-03 13:23:43,742 [INFO] Processing city: delhi
+2025-12-03 13:23:43,743 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 13:23:43,746 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-03 13:23:43,747 [INFO] Fetching new weather data for delhi
+2025-12-03 13:23:44,779 [INFO] Cache updated safely for: delhi
+2025-12-03 13:23:44,780 [WARNING] ALERT! Temperature 21.2°C exceeded threshold 2.0°C
+2025-12-03 13:24:03,563 [INFO] All cities processed.
+2025-12-03 13:31:14,309 [INFO] Logging initialized with level: INFO
+2025-12-03 13:31:14,310 [INFO] Cities to process: ['ranchi']
+2025-12-03 13:31:14,310 [INFO] Caching enabled: True
+2025-12-03 13:31:14,311 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 13:31:14,314 [INFO] Processing city: ranchi
+2025-12-03 13:31:14,319 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 13:31:14,319 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 13:31:14,355 [WARNING] Cache expired for 'ranchi'. Using stale data only for comparison.
+2025-12-03 13:31:14,356 [INFO] Fetching new weather data for ranchi
+2025-12-03 13:31:15,550 [INFO] Cache updated safely for: ranchi
+2025-12-03 13:31:15,551 [WARNING] ALERT! Temperature 21.4°C exceeded threshold 4.0°C
+2025-12-03 13:31:35,240 [INFO] All cities processed.
+2025-12-03 13:33:52,193 [INFO] Logging initialized with level: INFO
+2025-12-03 13:33:52,194 [INFO] Cities to process: ['ranchi']
+2025-12-03 13:33:52,194 [INFO] Caching enabled: True
+2025-12-03 13:33:52,195 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 13:33:52,197 [INFO] Processing city: ranchi
+2025-12-03 13:33:52,198 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 13:33:52,198 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 13:33:52,233 [WARNING] ALERT! Temperature 21.4°C exceeded threshold 4.0°C
+2025-12-03 13:34:02,558 [INFO] All cities processed.
+2025-12-03 13:37:36,853 [INFO] Logging initialized with level: INFO
+2025-12-03 13:37:36,853 [INFO] Cities to process: ['ranchi']
+2025-12-03 13:37:36,854 [INFO] Caching enabled: True
+2025-12-03 13:37:36,854 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 13:37:36,857 [INFO] Processing city: ranchi
+2025-12-03 13:37:36,858 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 13:37:36,859 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 13:37:36,861 [WARNING] ALERT! Temperature 21.4°C exceeded threshold 4.0°C
+2025-12-03 13:37:46,729 [INFO] All cities processed.
+2025-12-03 13:49:55,800 [INFO] Logging initialized with level: INFO
+2025-12-03 13:49:55,801 [INFO] Cities to process: ['ranchi']
+2025-12-03 13:49:55,801 [INFO] Caching enabled: True
+2025-12-03 13:49:55,802 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 13:49:55,805 [INFO] Processing city: ranchi
+2025-12-03 13:49:55,805 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 13:49:55,806 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 13:49:55,808 [WARNING] ALERT! Temperature 21.4°C exceeded threshold 4.0°C
+2025-12-03 13:50:10,743 [INFO] All cities processed.
+2025-12-03 13:50:30,419 [INFO] Logging initialized with level: INFO
+2025-12-03 13:50:30,420 [INFO] Cities to process: ['ranchi']
+2025-12-03 13:50:30,421 [INFO] Caching enabled: True
+2025-12-03 13:50:30,422 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 13:50:30,425 [INFO] Processing city: ranchi
+2025-12-03 13:50:30,426 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 13:50:30,428 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 13:50:30,432 [WARNING] ALERT! Temperature 21.4°C exceeded threshold 4.0°C
+2025-12-03 13:50:40,473 [INFO] All cities processed.
+2025-12-03 13:52:14,868 [INFO] Logging initialized with level: INFO
+2025-12-03 13:52:14,869 [INFO] Cities to process: ['ranchi']
+2025-12-03 13:52:14,869 [INFO] Caching enabled: True
+2025-12-03 13:52:14,870 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 13:52:14,872 [INFO] Processing city: ranchi
+2025-12-03 13:52:14,873 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 13:52:14,873 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 13:52:14,877 [WARNING] ALERT! Temperature 21.4°C exceeded threshold 4.0°C
+2025-12-03 13:52:32,262 [INFO] All cities processed.
+2025-12-03 13:55:25,241 [INFO] Cities to process: ['ranchi']
+2025-12-03 13:55:25,242 [INFO] Caching enabled: True
+2025-12-03 13:55:25,243 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 13:55:25,246 [INFO] Processing city: ranchi
+2025-12-03 13:55:25,247 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 13:55:25,247 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 13:55:25,249 [INFO] No alert. Temperature 21.4°C is below threshold 35.0°C
+2025-12-03 13:55:25,251 [INFO] All cities processed.
+2025-12-03 14:07:19,355 [INFO] Cities to process: ['ranchi']
+2025-12-03 14:07:19,356 [INFO] Caching enabled: True
+2025-12-03 14:07:19,357 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 14:07:19,363 [INFO] Processing city: ranchi
+2025-12-03 14:07:19,364 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 14:07:19,365 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 14:07:19,367 [WARNING] Cache expired for 'ranchi'. Using stale data only for comparison.
+2025-12-03 14:07:19,367 [INFO] Fetching new weather data for ranchi
+2025-12-03 14:07:20,364 [INFO] Cache updated safely for: ranchi
+2025-12-03 14:07:20,374 [INFO] No alert. Temperature 21.5°C is below threshold 35.0°C
+2025-12-03 14:07:20,376 [INFO] All cities processed.
+2025-12-03 14:14:39,450 [INFO] Cities to process: ['ranchi']
+2025-12-03 14:14:39,451 [INFO] Caching enabled: True
+2025-12-03 14:14:39,451 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 14:14:39,456 [INFO] Processing city: ranchi
+2025-12-03 14:14:39,457 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 14:14:39,458 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 14:14:39,500 [WARNING] ALERT! Temperature 21.5°C exceeded threshold 4.0°C
+2025-12-03 14:14:50,295 [INFO] All cities processed.
+2025-12-03 14:38:54,834 [INFO] Cities to process: ['ranchi']
+2025-12-03 14:38:54,835 [INFO] Caching enabled: True
+2025-12-03 14:38:54,835 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 14:38:54,839 [INFO] Processing city: ranchi
+2025-12-03 14:38:54,840 [WARNING] No predefined coordinates for city 'ranchi', using default lat/lon
+2025-12-03 14:38:54,841 [INFO] Coordinates for ranchi: 28.6, 77.2
+2025-12-03 14:38:54,842 [WARNING] Cache expired for 'ranchi'. Using stale data only for comparison.
+2025-12-03 14:38:54,843 [INFO] Fetching new weather data for ranchi
+2025-12-03 14:38:55,836 [INFO] Cache updated safely for: ranchi
+2025-12-03 14:38:55,840 [WARNING] ALERT! Temperature 21.5°C exceeded threshold 4.0°C
+2025-12-03 14:39:04,348 [INFO] All cities processed.
+2025-12-03 19:00:34,485 [INFO] Cities to process: ['delhi']
+2025-12-03 19:00:34,487 [INFO] Caching enabled: True
+2025-12-03 19:00:34,487 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:00:34,491 [INFO] All cities processed.
+2025-12-03 19:04:58,652 [INFO] Cities to process: ['delhi']
+2025-12-03 19:04:58,653 [INFO] Caching enabled: True
+2025-12-03 19:04:58,654 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:04:58,659 [INFO] Processing city: delhi
+2025-12-03 19:04:58,659 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 19:04:59,217 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-03 19:04:59,217 [INFO] Fetching new weather data for delhi
+2025-12-03 19:05:00,173 [INFO] Cache updated safely for: delhi
+2025-12-03 19:05:00,184 [INFO] No alert. Temperature 15.3°C is below threshold 35.0°C
+2025-12-03 19:05:00,189 [INFO] All cities processed.
+2025-12-03 19:22:16,424 [INFO] Cities to process: ['delhi']
+2025-12-03 19:22:16,425 [INFO] Caching enabled: True
+2025-12-03 19:22:16,426 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:22:16,429 [INFO] Processing city: delhi
+2025-12-03 19:22:16,429 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 19:22:16,466 [INFO] No alert. Temperature 15.3°C is below threshold 35.0°C
+2025-12-03 19:22:16,467 [INFO] All cities processed.
+2025-12-03 19:23:01,479 [INFO] Cities to process: ['delhi']
+2025-12-03 19:23:01,480 [INFO] Caching enabled: True
+2025-12-03 19:23:01,480 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:23:01,481 [INFO] Processing city: delhi
+2025-12-03 19:23:01,482 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 19:23:01,491 [INFO] No alert. Temperature 15.3°C is below threshold 35.0°C
+2025-12-03 19:23:01,492 [INFO] All cities processed.
+2025-12-03 19:27:35,890 [INFO] Cities to process: ['delhi']
+2025-12-03 19:27:35,891 [INFO] Caching enabled: True
+2025-12-03 19:27:35,893 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:27:35,897 [INFO] Processing city: delhi
+2025-12-03 19:27:35,898 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 19:27:35,899 [INFO] All cities processed.
+2025-12-03 19:28:28,893 [INFO] Cities to process: ['delhi']
+2025-12-03 19:28:28,895 [INFO] Caching enabled: True
+2025-12-03 19:28:28,896 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:28:28,903 [INFO] Processing city: delhi
+2025-12-03 19:28:28,904 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 19:28:28,905 [INFO] All cities processed.
+2025-12-03 19:36:28,140 [INFO] Cities to process: ['delhi']
+2025-12-03 19:36:28,142 [INFO] Caching enabled: True
+2025-12-03 19:36:28,143 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:36:28,147 [INFO] Processing city: delhi
+2025-12-03 19:36:28,149 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 19:36:28,590 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-03 19:36:28,590 [INFO] Fetching new weather data for delhi
+2025-12-03 19:36:29,427 [INFO] Cache updated safely for: delhi
+2025-12-03 19:36:29,630 [INFO] No alert. Temperature 14.9°C is below threshold 35.0°C
+2025-12-03 19:36:29,632 [INFO] All cities processed.
+2025-12-03 19:38:55,601 [INFO] Cities to process: ['delhi']
+2025-12-03 19:38:55,602 [INFO] Caching enabled: True
+2025-12-03 19:38:55,602 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 19:38:55,605 [INFO] Processing city: delhi
+2025-12-03 19:38:55,606 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 19:38:56,326 [INFO] No alert. Temperature 14.9°C is below threshold 35.0°C
+2025-12-03 19:38:56,331 [INFO] All cities processed.
+2025-12-03 20:46:05,745 [INFO] Cities to process: ['delhi']
+2025-12-03 20:46:05,746 [INFO] Caching enabled: True
+2025-12-03 20:46:05,747 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 20:46:05,750 [INFO] Processing city: delhi
+2025-12-03 20:46:05,751 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 20:46:05,805 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-03 20:46:05,877 [INFO] Fetching new weather data for delhi
+2025-12-03 20:46:06,696 [INFO] Cache updated safely for: delhi
+2025-12-03 20:46:06,699 [INFO] No alert. Temperature 13.7°C is below threshold 35.0°C
+2025-12-03 20:46:06,702 [INFO] All cities processed.
+2025-12-03 20:48:23,547 [INFO] Cities to process: ['delhi']
+2025-12-03 20:48:23,548 [INFO] Caching enabled: True
+2025-12-03 20:48:23,549 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 20:48:23,553 [INFO] Processing city: delhi
+2025-12-03 20:48:23,554 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 20:48:23,593 [WARNING] ALERT! Temperature 13.7°C exceeded threshold 4.0°C
+2025-12-03 20:48:36,766 [INFO] All cities processed.
+2025-12-03 20:48:59,177 [INFO] Cities to process: ['delhi']
+2025-12-03 20:48:59,178 [INFO] Caching enabled: True
+2025-12-03 20:48:59,178 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 20:48:59,181 [INFO] Processing city: delhi
+2025-12-03 20:48:59,182 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 20:49:00,197 [INFO] No alert. Temperature 13.7°C is below threshold 35.0°C
+2025-12-03 20:49:00,206 [INFO] All cities processed.
+2025-12-03 20:50:02,523 [INFO] Cities to process: ['lucknow']
+2025-12-03 20:50:02,524 [INFO] Caching enabled: True
+2025-12-03 20:50:02,524 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 20:50:02,527 [INFO] Processing city: lucknow
+2025-12-03 20:50:02,528 [WARNING] No predefined coordinates for city 'lucknow', using default lat/lon
+2025-12-03 20:50:02,528 [INFO] Coordinates for lucknow: 28.6, 77.2
+2025-12-03 20:50:02,945 [INFO] Cache file missing for: lucknow
+2025-12-03 20:50:02,946 [INFO] Fetching new weather data for lucknow
+2025-12-03 20:50:05,438 [INFO] Cache updated safely for: lucknow
+2025-12-03 20:50:05,733 [INFO] No alert. Temperature 13.7°C is below threshold 35.0°C
+2025-12-03 20:50:05,738 [INFO] All cities processed.
+2025-12-03 20:51:07,748 [INFO] Cities to process: ['lucknow']
+2025-12-03 20:51:07,749 [INFO] Caching enabled: True
+2025-12-03 20:51:07,749 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 20:51:07,752 [INFO] Processing city: lucknow
+2025-12-03 20:51:07,755 [WARNING] No predefined coordinates for city 'lucknow', using default lat/lon
+2025-12-03 20:51:07,755 [INFO] Coordinates for lucknow: 28.6, 77.2
+2025-12-03 20:51:08,472 [INFO] No alert. Temperature 13.7°C is below threshold 35.0°C
+2025-12-03 20:51:08,476 [INFO] All cities processed.
+2025-12-03 20:57:07,309 [INFO] Cities to process: ['lucknow']
+2025-12-03 20:57:07,310 [INFO] Caching enabled: True
+2025-12-03 20:57:07,311 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 20:57:07,314 [INFO] Processing city: lucknow
+2025-12-03 20:57:07,315 [WARNING] No predefined coordinates for city 'lucknow', using default lat/lon
+2025-12-03 20:57:07,316 [INFO] Coordinates for lucknow: 28.6, 77.2
+2025-12-03 20:57:07,803 [INFO] No alert. Temperature 13.7°C is below threshold 35.0°C
+2025-12-03 20:57:07,806 [INFO] All cities processed.
+2025-12-03 23:21:23,701 [INFO] Cities to process: ['delhi']
+2025-12-03 23:21:23,701 [INFO] Caching enabled: True
+2025-12-03 23:21:23,702 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 23:21:23,704 [INFO] Processing city: delhi
+2025-12-03 23:21:23,705 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 23:21:23,706 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-03 23:21:23,707 [INFO] Fetching new weather data for delhi
+2025-12-03 23:21:24,675 [INFO] Cache updated safely for: delhi
+2025-12-03 23:21:24,690 [INFO] No alert. Temperature 12.8°C is below threshold 35.0°C
+2025-12-03 23:21:24,692 [INFO] All cities processed.
+2025-12-03 23:22:13,963 [INFO] Cities to process: ['delhi']
+2025-12-03 23:22:13,964 [INFO] Caching enabled: True
+2025-12-03 23:22:13,964 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 23:22:13,967 [INFO] Processing city: delhi
+2025-12-03 23:22:13,967 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 23:22:13,999 [WARNING] ALERT! Temperature 12.8°C exceeded threshold 4.0°C
+2025-12-03 23:22:21,372 [INFO] All cities processed.
+2025-12-03 23:23:15,499 [INFO] Cities to process: ['delhi']
+2025-12-03 23:23:15,500 [INFO] Caching enabled: True
+2025-12-03 23:23:15,500 [INFO] Alert temperature threshold: 4.0°C
+2025-12-03 23:23:15,503 [INFO] Processing city: delhi
+2025-12-03 23:23:15,504 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 23:23:15,509 [WARNING] ALERT! Temperature 12.8°C exceeded threshold 4.0°C
+2025-12-03 23:23:28,069 [INFO] All cities processed.
+2025-12-03 23:24:31,705 [INFO] Cities to process: ['delhi']
+2025-12-03 23:24:31,706 [INFO] Caching enabled: True
+2025-12-03 23:24:31,706 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 23:24:31,710 [INFO] Processing city: delhi
+2025-12-03 23:24:31,710 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 23:24:32,110 [INFO] No alert. Temperature 12.8°C is below threshold 35.0°C
+2025-12-03 23:24:32,112 [INFO] All cities processed.
+2025-12-03 23:28:05,594 [INFO] Cities to process: ['delhi']
+2025-12-03 23:28:05,594 [INFO] Caching enabled: True
+2025-12-03 23:28:05,594 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 23:28:05,596 [INFO] Processing city: delhi
+2025-12-03 23:28:05,597 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 23:28:05,601 [INFO] No alert. Temperature 12.8°C is below threshold 35.0°C
+2025-12-03 23:28:05,604 [INFO] All cities processed.
+2025-12-03 23:35:02,284 [INFO] Cities to process: ['delhi']
+2025-12-03 23:35:02,286 [INFO] Caching enabled: True
+2025-12-03 23:35:02,286 [INFO] Alert temperature threshold: 35.0°C
+2025-12-03 23:35:02,289 [INFO] Processing city: delhi
+2025-12-03 23:35:02,290 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 23:35:02,294 [INFO] No alert. Temperature 12.8°C is below threshold 35.0°C
+2025-12-03 23:35:02,296 [INFO] All cities processed.
+2025-12-03 23:35:28,361 [INFO] Cities to process: ['delhi']
+2025-12-03 23:35:28,362 [INFO] Caching enabled: True
+2025-12-03 23:35:28,363 [INFO] Alert temperature threshold: 20.0°C
+2025-12-03 23:35:28,365 [INFO] Processing city: delhi
+2025-12-03 23:35:28,366 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-03 23:35:28,371 [INFO] No alert. Temperature 12.8°C is below threshold 20.0°C
+2025-12-03 23:35:28,373 [INFO] All cities processed.
+2025-12-04 00:19:56,033 [INFO] Cities to process: ['delhi']
+2025-12-04 00:19:56,033 [INFO] Caching enabled: True
+2025-12-04 00:19:56,034 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 00:19:56,037 [INFO] Processing city: delhi
+2025-12-04 00:19:56,037 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 00:19:56,039 [WARNING] Cache expired for 'delhi'. Using stale data only for comparison.
+2025-12-04 00:19:56,039 [INFO] Fetching new weather data for delhi
+2025-12-04 00:19:56,978 [INFO] Cache updated safely for: delhi
+2025-12-04 00:19:56,982 [INFO] No alert. Temperature 11.7°C is below threshold 35.0°C
+2025-12-04 00:19:56,983 [INFO] All cities processed.
+2025-12-04 00:38:20,865 [INFO] Cities to process: ['delhi']
+2025-12-04 00:38:20,866 [INFO] Caching enabled: True
+2025-12-04 00:38:20,867 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 00:38:20,871 [INFO] Processing city: delhi
+2025-12-04 00:38:20,871 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 00:38:20,873 [INFO] All cities processed.
+2025-12-04 00:39:14,842 [INFO] Cities to process: ['delhi']
+2025-12-04 00:39:14,843 [INFO] Caching enabled: True
+2025-12-04 00:39:14,844 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 00:39:14,847 [INFO] Processing city: delhi
+2025-12-04 00:39:14,848 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 00:39:14,850 [INFO] All cities processed.
+2025-12-04 00:40:45,749 [INFO] Cities to process: ['delhi']
+2025-12-04 00:40:45,750 [INFO] Caching enabled: True
+2025-12-04 00:40:45,751 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 00:40:45,755 [INFO] Processing city: delhi
+2025-12-04 00:40:45,755 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 00:40:46,012 [INFO] All cities processed.
+2025-12-04 00:59:44,661 [INFO] Cities to process: ['delhi']
+2025-12-04 00:59:44,662 [INFO] Caching enabled: True
+2025-12-04 00:59:44,663 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 00:59:44,665 [INFO] Processing city: delhi
+2025-12-04 00:59:44,665 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 00:59:44,666 [INFO] No cache entry for: delhi
+2025-12-04 00:59:44,666 [INFO] Fetching new weather data for delhi
+2025-12-04 00:59:46,111 [INFO] Cache file updated safely.
+2025-12-04 00:59:46,115 [INFO] No alert. Temperature 11.2°C is below threshold 35.0°C
+2025-12-04 00:59:46,117 [INFO] All cities processed.
+2025-12-04 01:00:37,954 [INFO] Cities to process: ['bengaluru']
+2025-12-04 01:00:37,955 [INFO] Caching enabled: True
+2025-12-04 01:00:37,955 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 01:00:37,959 [INFO] Processing city: bengaluru
+2025-12-04 01:00:37,960 [INFO] Coordinates for bengaluru: 12.97, 77.59
+2025-12-04 01:00:37,962 [INFO] No cache entry for: bengaluru
+2025-12-04 01:00:37,962 [INFO] Fetching new weather data for bengaluru
+2025-12-04 01:00:38,749 [INFO] Cache file updated safely.
+2025-12-04 01:00:38,753 [INFO] No alert. Temperature 20.1°C is below threshold 35.0°C
+2025-12-04 01:00:38,756 [INFO] All cities processed.
+2025-12-04 01:01:29,835 [INFO] Cities to process: ['delhi']
+2025-12-04 01:01:29,836 [INFO] Caching enabled: True
+2025-12-04 01:01:29,837 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 01:01:29,840 [INFO] Processing city: delhi
+2025-12-04 01:01:29,841 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 01:01:29,848 [INFO] No alert. Temperature 11.2°C is below threshold 35.0°C
+2025-12-04 01:01:29,850 [INFO] All cities processed.
+2025-12-04 01:20:20,693 [INFO] Cities to process: None
+2025-12-04 01:20:20,695 [INFO] Caching enabled: True
+2025-12-04 01:20:20,696 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 01:28:17,917 [INFO] Cities to process: ['Delhi']
+2025-12-04 01:28:17,918 [INFO] Caching enabled: True
+2025-12-04 01:28:17,919 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 01:28:17,923 [INFO] Processing city: Delhi
+2025-12-04 01:28:17,923 [INFO] Coordinates for Delhi: 28.6, 77.2
+2025-12-04 01:28:17,925 [INFO] No cache entry for: Delhi
+2025-12-04 01:28:17,926 [INFO] Fetching new weather data for Delhi
+2025-12-04 01:28:18,950 [INFO] Cache file updated safely.
+2025-12-04 01:28:18,967 [INFO] No alert. Temperature 10.8°C is below threshold 35.0°C
+2025-12-04 01:28:18,973 [INFO] All cities processed.
+2025-12-04 01:28:51,912 [INFO] Cities to process: ['Delhi']
+2025-12-04 01:28:51,913 [INFO] Caching enabled: True
+2025-12-04 01:28:51,914 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 01:28:51,917 [INFO] Processing city: Delhi
+2025-12-04 01:28:51,918 [INFO] Coordinates for Delhi: 28.6, 77.2
+2025-12-04 01:28:51,922 [INFO] No alert. Temperature 10.8°C is below threshold 35.0°C
+2025-12-04 01:28:51,924 [INFO] All cities processed.
+2025-12-04 01:30:42,196 [INFO] Cities to process: ['Delhi']
+2025-12-04 01:30:42,197 [INFO] Caching enabled: True
+2025-12-04 01:30:42,198 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 01:30:42,201 [INFO] Processing city: Delhi
+2025-12-04 01:30:42,201 [INFO] Coordinates for Delhi: 28.6, 77.2
+2025-12-04 01:30:42,206 [INFO] No alert. Temperature 10.8°C is below threshold 35.0°C
+2025-12-04 01:30:42,207 [INFO] All cities processed.
+2025-12-04 01:50:33,999 [INFO] Cities to process: ['delhi']
+2025-12-04 01:50:34,000 [INFO] Caching enabled: True
+2025-12-04 01:50:34,001 [INFO] Alert temperature threshold: 4.0°C
+2025-12-04 01:50:34,005 [INFO] Processing city: delhi
+2025-12-04 01:50:34,008 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 01:50:34,012 [WARNING] Cache expired for 'delhi' — returning stale data only.
+2025-12-04 01:50:34,013 [INFO] Fetching new weather data for delhi
+2025-12-04 01:50:34,795 [INFO] Cache file updated safely.
+2025-12-04 01:50:34,799 [WARNING] ALERT! Temperature 10.4°C exceeded threshold 4.0°C
+2025-12-04 01:50:46,975 [INFO] All cities processed.
+2025-12-04 01:51:19,855 [INFO] Cities to process: ['delhi']
+2025-12-04 01:51:19,855 [INFO] Caching enabled: True
+2025-12-04 01:51:19,856 [INFO] Alert temperature threshold: 35.0°C
+2025-12-04 01:51:19,858 [INFO] Processing city: delhi
+2025-12-04 01:51:19,858 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 01:51:20,099 [INFO] All cities processed.
+2025-12-04 01:54:45,305 [INFO] Cities to process: ['amsterdam']
+2025-12-04 01:54:45,306 [INFO] Caching enabled: True
+2025-12-04 01:54:45,307 [INFO] Alert temperature threshold: 1.0°C
+2025-12-04 01:54:45,310 [INFO] Processing city: amsterdam
+2025-12-04 01:54:45,310 [WARNING] No predefined coordinates for city 'amsterdam', using default lat/lon
+2025-12-04 01:54:45,311 [INFO] Coordinates for amsterdam: 28.6, 77.2
+2025-12-04 01:54:45,313 [INFO] No cache entry for: amsterdam
+2025-12-04 01:54:45,313 [INFO] Fetching new weather data for amsterdam
+2025-12-04 01:54:46,057 [INFO] Cache file updated safely.
+2025-12-04 01:54:46,063 [WARNING] ALERT! Temperature 10.4°C exceeded threshold 1.0°C
+2025-12-04 01:54:55,456 [INFO] All cities processed.

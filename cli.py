@@ -60,5 +60,22 @@ def get_args():
         default="config/config.ini",
         help="Path to configuration file"
     )
+    parser.add_argument(
+        "--alert-low",
+        type=float,
+        help="Trigger alert if temperature drops below this value (°C)"
+    )
+    # parser.add_argument(
+    #     "--map",
+    #     action="store_true",
+    #     help="Open location on Google Maps"
+    # )
+    parser.add_argument(
+    "--show-cache",
+    action="store_true",
+    help="Display cached weather data as a table"
+     )
+
+
 
     return parser.parse_args()

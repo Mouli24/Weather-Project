@@ -1,0 +1,54 @@
+{
+  "delhi": {
+    "timestamp": "2025-12-04T01:50:34.789627",
+    "payload": {
+      "time": "2025-12-03T20:15",
+      "interval": 900,
+      "temperature": 10.4,
+      "windspeed": 4.0,
+      "winddirection": 280,
+      "is_day": 0,
+      "weathercode": 1
+    },
+    "previous": 11.2
+  },
+  "bengaluru": {
+    "timestamp": "2025-12-04T01:00:38.744300",
+    "payload": {
+      "time": "2025-12-03T19:30",
+      "interval": 900,
+      "temperature": 20.1,
+      "windspeed": 8.8,
+      "winddirection": 71,
+      "is_day": 0,
+      "weathercode": 3
+    },
+    "previous": null
+  },
+  "Delhi": {
+    "timestamp": "2025-12-04T01:28:18.944869",
+    "payload": {
+      "time": "2025-12-03T19:45",
+      "interval": 900,
+      "temperature": 10.8,
+      "windspeed": 4.0,
+      "winddirection": 280,
+      "is_day": 0,
+      "weathercode": 1
+    },
+    "previous": null
+  },
+  "amsterdam": {
+    "timestamp": "2025-12-04T01:54:46.052354",
+    "payload": {
+      "time": "2025-12-03T20:15",
+      "interval": 900,
+      "temperature": 10.4,
+      "windspeed": 4.0,
+      "winddirection": 280,
+      "is_day": 0,
+      "weathercode": 1
+    },
+    "previous": null
+  }
+}
