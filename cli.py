@@ -64,27 +64,57 @@
 #     return parser.parse_args()
 
 
+# import argparse
+
+# def get_args(arg_list=None):
+#     parser = argparse.ArgumentParser(description="Weather Harvester CLI")
+
+#     parser.add_argument("-c", "--city", dest="cities", action="append",
+#                         help="City name", default=[])
+    
+#     parser.add_argument("--alert-temp", type=float, default=None,
+#                         help="Temperature threshold for alerts")
+    
+#     parser.add_argument("--log-level", type=str, default="INFO",
+#                         help="Logging level")
+    
+#     parser.add_argument("--config", type=str, default="config/config.ini",
+#                         help="Path to config file")
+
+#     parser.add_argument("--lat", type=float, default=None)
+#     parser.add_argument("--lon", type=float, default=None)
+#     parser.add_argument("--use-cache", action="store_true")
+
+#     if arg_list is not None:
+#         return parser.parse_args(arg_list)
+
+#     return parser.parse_args()
 import argparse
 
 def get_args(arg_list=None):
     parser = argparse.ArgumentParser(description="Weather Harvester CLI")
 
-    parser.add_argument("-c", "--city", dest="cities", action="append",
-                        help="City name", default=[])
-    
-    parser.add_argument("--alert-temp", type=float, default=None,
-                        help="Temperature threshold for alerts")
-    
-    parser.add_argument("--log-level", type=str, default="INFO",
-                        help="Logging level")
-    
-    parser.add_argument("--config", type=str, default="config/config.ini",
-                        help="Path to config file")
+    # POSitional argument (optional)
+    parser.add_argument(
+        "positional_city",
+        nargs="*",
+        help="City name(s) (optional if using -c)"
+    )
 
+    # Optional flag -c
+    parser.add_argument(
+        "-c", "--city", dest="cities", action="append",
+        help="City name"
+    )
+
+    parser.add_argument("--alert-temp", type=float, default=None)
+    parser.add_argument("--log-level", type=str, default="INFO")
+    parser.add_argument("--config", type=str, default="config/config.ini")
     parser.add_argument("--lat", type=float, default=None)
     parser.add_argument("--lon", type=float, default=None)
     parser.add_argument("--use-cache", action="store_true")
 
+    # For tests
     if arg_list is not None:
         return parser.parse_args(arg_list)
 
