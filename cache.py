@@ -1,43 +1,102 @@
-# cache.py
+
 import json
 from pathlib import Path
 from datetime import datetime, timedelta
+import logging
+import tempfile
+
+logger = logging.getLogger(__name__)
 
 CACHE_DIR = Path("data")
 CACHE_DIR.mkdir(exist_ok=True)
 
+CACHE_FILE = CACHE_DIR / "weather_cache.json"
 TTL_MINUTES = 30
 
-def _cache_file_for(key: str) -> Path:
-    safe_key = key.lower().replace(" ", "_")
-    return CACHE_DIR / f"{safe_key}_cache.json"
+
+# ---------------------- INTERNAL HELPERS ----------------------
+
+def _load_all():
+    """Load the entire cache file."""
+    if not CACHE_FILE.exists():
+        return {}
+
+    try:
+        with CACHE_FILE.open("r") as f:
+            return json.load(f)
+    except json.JSONDecodeError:
+        logger.error("⚠ Cache file corrupted — resetting weather_cache.json")
+        try:
+            CACHE_FILE.unlink()
+        except:
+            pass
+        return {}
+    except Exception as e:
+        logger.error(f"Unexpected error loading cache: {e}")
+        return {}
 
 
-def load_cache(key: str):
-    cache_file = _cache_file_for(key)
+def _save_all(cache_dict: dict):
+    """Atomically save the entire cache dictionary."""
+    try:
+        with tempfile.NamedTemporaryFile(
+            "w", delete=False, dir=CACHE_DIR, suffix=".tmp"
+        ) as tmp:
+            json.dump(cache_dict, tmp, indent=2)
+            temp_name = tmp.name
 
-    if not cache_file.exists():
-        return None, None  # no previous data
-
-    with cache_file.open() as f:
-        data = json.load(f)
-
-    ts = datetime.fromisoformat(data["timestamp"])
-    if datetime.now() - ts > timedelta(minutes=TTL_MINUTES):
-        return None, data.get("payload")  # return previous to compare
-
-    return data["payload"], data.get("previous")  # payload AND previous temp
+        Path(temp_name).replace(CACHE_FILE)
+        logger.info("Cache file updated safely.")
+    except Exception as e:
+        logger.error(f"⚠ Failed to write cache file: {e}")
 
 
-def save_cache(key: str, payload):
-    cache_file = _cache_file_for(key)
-    CACHE_DIR.mkdir(exist_ok=True)
+# ---------------------- PUBLIC FUNCTIONS ----------------------
 
-    # store previous temperature trend value
-    previous_temp = payload.get("temperature")
+def load_cache(city: str):
+    """
+    Load cached data for a specific city.
+    Handles TTL expiration and corruption gracefully.
+    """
+    cache = _load_all()
 
-    cache_file.write_text(json.dumps({
+    if city not in cache:
+        logger.info(f"No cache entry for: {city}")
+        return None, None
+
+    entry = cache[city]
+
+    try:
+        timestamp = datetime.fromisoformat(entry["timestamp"])
+    except:
+        logger.error(f"Invalid timestamp for {city}, ignoring cache.")
+        return None, entry.get("payload")
+
+    # TTL check
+    if datetime.now() - timestamp > timedelta(minutes=TTL_MINUTES):
+        logger.warning(f"Cache expired for '{city}' — returning stale data only.")
+        return None, entry.get("payload")
+
+    return entry.get("payload"), entry.get("previous")
+
+
+def save_cache(city: str, payload: dict):
+    """
+    Save cached payload for one city inside a shared JSON file.
+    Uses atomic writes for safety.
+    """
+    cache = _load_all()
+
+    previous_temp = (
+        cache.get(city, {})
+        .get("payload", {})
+        .get("temperature")
+    )
+
+    cache[city] = {
         "timestamp": datetime.now().isoformat(),
         "payload": payload,
-        "previous": previous_temp
-    }, indent=2))
+        "previous": previous_temp,
+    }
+
+    _save_all(cache)

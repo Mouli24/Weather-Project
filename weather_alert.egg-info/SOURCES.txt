@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+weather_alert.egg-info/PKG-INFO
+weather_alert.egg-info/SOURCES.txt
+weather_alert.egg-info/dependency_links.txt
+weather_alert.egg-info/entry_points.txt
+weather_alert.egg-info/requires.txt
+weather_alert.egg-info/top_level.txt

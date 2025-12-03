@@ -1,0 +1,2 @@
+[console_scripts]
+weather-alert = weather_alert.main:main

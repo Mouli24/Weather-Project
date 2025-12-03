@@ -1,3 +1,22 @@
+Metadata-Version: 2.4
+Name: weather-alert
+Version: 1.0.0
+Summary: A CLI tool to fetch weather alerts using Open-Meteo API.
+Home-page: https://github.com/aasthap25/weather-alert
+Author: Aastha Priya
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
 Weather Data Harvester – README.md
  Overview
  Weather Data Harvester is a Python CLI application that fetches real-time weather for one or multiple
