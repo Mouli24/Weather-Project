@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# ---- Virtual Environment ----
+venv/
+.venv/
+ENV/
+env/
+
+# ---- VSCode ----
+.vscode/
+
+# ---- macOS / Linux ----
+.DS_Store
+Thumbs.db
+
+# ---- Project-specific ----
+data/*.log
+data/*_cache.json
+data/*.csv
+
+# Don't ignore config.ini (important)
+!config/config.ini
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/

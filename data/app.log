@@ -11,3 +11,64 @@
 2025-11-26 18:52:07,771 [INFO] No alert. Temperature 24.7°C is below threshold 35.0°C
 2025-11-26 18:52:08,443 [INFO] No alert. Temperature 18.2°C is below threshold 35.0°C
 2025-11-26 18:52:08,452 [INFO] All cities processed.
+2025-11-28 00:31:56,419 [INFO] Logging initialized with level: INFO
+2025-11-28 00:31:56,420 [INFO] Cities to process: ['Delhi']
+2025-11-28 00:31:56,420 [INFO] Caching enabled: True
+2025-11-28 00:31:56,421 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 00:31:56,422 [INFO] Processing city: Delhi
+2025-11-28 00:31:56,422 [INFO] Coordinates for Delhi: 28.6, 77.2
+2025-11-28 00:31:56,433 [INFO] Fetching new weather data for Delhi
+2025-11-28 00:32:20,488 [ERROR] Network error: <urlopen error timed out>
+2025-11-28 00:32:20,488 [ERROR] Failed to fetch weather for Delhi
+2025-11-28 00:33:00,910 [INFO] Logging initialized with level: INFO
+2025-11-28 00:33:00,911 [INFO] Cities to process: ['Delhi']
+2025-11-28 00:33:00,911 [INFO] Caching enabled: True
+2025-11-28 00:33:00,912 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 00:33:00,924 [INFO] Processing city: Delhi
+2025-11-28 00:33:00,925 [INFO] Coordinates for Delhi: 28.6, 77.2
+2025-11-28 00:33:00,926 [INFO] Fetching new weather data for Delhi
+2025-11-28 00:33:20,993 [ERROR] Network error: <urlopen error timed out>
+2025-11-28 00:33:20,994 [ERROR] Failed to fetch weather for Delhi
+2025-11-28 00:33:20,995 [INFO] All cities processed.
+2025-11-28 00:34:02,062 [INFO] Logging initialized with level: INFO
+2025-11-28 00:34:02,063 [INFO] Cities to process: ['Pune', 'Ranchi']
+2025-11-28 00:34:02,063 [INFO] Caching enabled: True
+2025-11-28 00:34:02,064 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 00:34:02,066 [INFO] Processing city: Pune
+2025-11-28 00:34:02,066 [INFO] Coordinates for Pune: 18.52, 73.86
+2025-11-28 00:34:02,067 [INFO] Processing city: Ranchi
+2025-11-28 00:34:02,067 [WARNING] No predefined coordinates for city 'Ranchi', using default lat/lon
+2025-11-28 00:34:02,067 [INFO] Coordinates for Ranchi: 28.6, 77.2
+2025-11-28 00:34:02,068 [INFO] Fetching new weather data for Ranchi
+2025-11-28 00:34:02,095 [INFO] Fetching new weather data for Pune
+2025-11-28 00:34:22,110 [ERROR] Network error: <urlopen error timed out>
+2025-11-28 00:34:22,111 [ERROR] Network error: <urlopen error timed out>
+2025-11-28 00:34:22,111 [ERROR] Failed to fetch weather for Ranchi
+2025-11-28 00:34:22,112 [ERROR] Failed to fetch weather for Pune
+2025-11-28 00:34:22,112 [INFO] All cities processed.
+2025-11-28 00:37:45,143 [INFO] Logging initialized with level: INFO
+2025-11-28 00:37:45,144 [INFO] Cities to process: ['Pune', 'Ranchi']
+2025-11-28 00:37:45,144 [INFO] Caching enabled: True
+2025-11-28 00:37:45,144 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 00:37:45,147 [INFO] Processing city: Pune
+2025-11-28 00:37:45,148 [INFO] Processing city: Ranchi
+2025-11-28 00:37:45,148 [INFO] Coordinates for Pune: 18.52, 73.86
+2025-11-28 00:37:45,148 [WARNING] No predefined coordinates for city 'Ranchi', using default lat/lon
+2025-11-28 00:37:45,149 [INFO] Coordinates for Ranchi: 28.6, 77.2
+2025-11-28 00:37:45,149 [INFO] Fetching new weather data for Ranchi
+2025-11-28 00:37:45,150 [INFO] Fetching new weather data for Pune
+2025-11-28 00:37:46,525 [INFO] No alert. Temperature 21.2°C is below threshold 35.0°C
+2025-11-28 00:37:46,525 [INFO] No alert. Temperature 15.7°C is below threshold 35.0°C
+2025-11-28 00:37:46,526 [INFO] All cities processed.
+2025-11-28 00:39:50,029 [INFO] Logging initialized with level: INFO
+2025-11-28 00:39:50,029 [INFO] Cities to process: ['Pune', 'Ranchi']
+2025-11-28 00:39:50,029 [INFO] Caching enabled: True
+2025-11-28 00:39:50,029 [INFO] Alert temperature threshold: 35.0°C
+2025-11-28 00:39:50,031 [INFO] Processing city: Pune
+2025-11-28 00:39:50,032 [INFO] Processing city: Ranchi
+2025-11-28 00:39:50,032 [INFO] Coordinates for Pune: 18.52, 73.86
+2025-11-28 00:39:50,032 [WARNING] No predefined coordinates for city 'Ranchi', using default lat/lon
+2025-11-28 00:39:50,033 [INFO] Coordinates for Ranchi: 28.6, 77.2
+2025-11-28 00:39:50,052 [INFO] No alert. Temperature 21.2°C is below threshold 35.0°C
+2025-11-28 00:39:50,052 [INFO] No alert. Temperature 15.7°C is below threshold 35.0°C
+2025-11-28 00:39:50,053 [INFO] All cities processed.

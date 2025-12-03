@@ -27,31 +27,55 @@ def get_coords_for_city(city: str, default_lat: float, default_lon: float) -> tu
     return default_lat, default_lon
 
 
-def fetch_weather(lat: float, lon: float) -> dict | None:
-    """Fetch current weather for given coordinates using Open-Meteo."""
-    url = (
-        "https://api.open-meteo.com/v1/forecast"
-        f"?latitude={lat}&longitude={lon}&current_weather=true"
-    )
+# def fetch_weather(lat: float, lon: float) -> dict | None:
+#     """Fetch current weather for given coordinates using Open-Meteo."""
+#     url = (
+#         "https://api.open-meteo.com/v1/forecast"
+#         f"?latitude={lat}&longitude={lon}&current_weather=true"
+#     )
+#     try:
+#         logging.debug(f"Requesting URL: {url}")
+#         with urllib.request.urlopen(url, timeout=10) as resp:
+#             if resp.status != 200:
+#                 logging.error(f"HTTP Error: {resp.status}")
+#                 return None
+#             data = json.load(resp)
+#             return data.get("current_weather")
+#     except urllib.error.HTTPError as e:
+#         logging.error(f"HTTP error: {e}")
+#     except urllib.error.URLError as e:
+#         logging.error(f"Network error: {e}")
+#     except json.JSONDecodeError as e:
+#         logging.error(f"JSON decode error: {e}")
+#     except Exception as e:
+#         logging.exception(f"Unexpected error: {e}")
+#     return None
+
+
+# if __name__ == "__main__":
+#     # quick manual test
+#     print(fetch_weather(28.6, 77.2))
+
+
+import urllib.request
+import json
+import logging
+
+def fetch_weather(lat, lon):
+    url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true"
+
     try:
-        logging.debug(f"Requesting URL: {url}")
         with urllib.request.urlopen(url, timeout=10) as resp:
-            if resp.status != 200:
-                logging.error(f"HTTP Error: {resp.status}")
-                return None
-            data = json.load(resp)
+            raw = resp.read()
+            data = json.loads(raw)
             return data.get("current_weather")
-    except urllib.error.HTTPError as e:
-        logging.error(f"HTTP error: {e}")
-    except urllib.error.URLError as e:
-        logging.error(f"Network error: {e}")
-    except json.JSONDecodeError as e:
-        logging.error(f"JSON decode error: {e}")
+
     except Exception as e:
-        logging.exception(f"Unexpected error: {e}")
-    return None
-
-
+        logging.error("Unexpected error: %s", e)
+        return None
+    
+    
+    
 if __name__ == "__main__":
     # quick manual test
     print(fetch_weather(28.6, 77.2))
